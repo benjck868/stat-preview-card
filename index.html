@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="author" content="Benjamin B. Sumilhig">
+    <meta name="description" content="This is a component that will utilize flexbox layout in tailwindcss">
+    <meta name="keywords" content="frontend mentor, HTML, CSS, TAILWINDCSS, NEWBIE, FRESH">
+    <link rel="stylesheet" href="./build/css/style.css">
+    <link rel="shortcut icon" href="./build/images/favicon-32x32.png" type="image/x-icon">
+</head>
+<body class="bg-SPC-very-dark-blue">
+    <main class="rounded-xl flex flex-col md:flex-row-reverse m-auto justify-center p-10 max-w-screen-lg">
+        <div class="flex-1 relative">
+            <img class="block h-full w-full md:hidden" src="./build/images/image-header-mobile.jpg">
+            <img class="hidden md:block h-full" src="./build/images/image-header-desktop.jpg" alt="header-desktop">
+            <div class="absolute bg-SPC-soft-violet top-0 left-0 h-full w-full opacity-70"></div>
+        </div>
+        <div class="bg-SPC-dark-desaturated-blue text-white p-10 text-center md:text-left flex-1">
+            <h1 class="text-4xl font-SPC-inter font-extrabold">Get <span class="text-SPC-soft-violet">insights</span> that help your business grow.</h1>
+            <p class="text-lg mt-4">Disconver the benefits of data analytics and make better descisions regarding revenue, customer, experience, and overall efficiency.</p>
+            <div class="flex flex-col md:flex-row justify-between items-center pt-3">
+                <div class="">
+                    <h3 class="font-bold">10K+</h3>
+                    <p class="text-xs opacity-50">COMPANIES</p>
+                </div>
+                <div class="">
+                    <h3 class="font-bold">314</h3>
+                    <p class="text-xs opacity-50">TEMPLATES</p>
+                </div>
+                <div class="    ">
+                    <h3 class="font-bold">12M+</h3>
+                    <p class="text-xs opacity-50">QUERIES</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
